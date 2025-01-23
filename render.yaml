@@ -1,1 +1,9 @@
+# render.yaml
+
+services:
+  - name: vite-app
+    type: web
+    env: static
+    staticPublishPath: /build
+    buildCommand: npm run build
 
